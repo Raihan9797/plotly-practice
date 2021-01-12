@@ -16,7 +16,7 @@ app = dash.Dash(__name__)
 
 
 ## -------------- get and clean data
-df = pd.read_csv('intro_bees.csv')
+df = pd.read_csv('data/intro_bees.csv')
 
 df = df.groupby(['State', 'ANSI', 'Affected by', 'Year', 'state_code'])[['Pct of Colonies Impacted']].mean()
 df.reset_index(inplace = True)
