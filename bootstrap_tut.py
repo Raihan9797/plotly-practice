@@ -16,7 +16,7 @@ import datetime
 # df = df.stack().reset_index()
 # df.to_csv('mystocks.csv', index = False)
 
-df = pd.read_csv('mystocks.csv')
+df = pd.read_csv('data/mystocks.csv')
 # print(df[:15])
 
 

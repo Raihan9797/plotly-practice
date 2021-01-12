@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import datetime
 
-df = pd.read_csv('mystocks.csv')
+df = pd.read_csv('data/mystocks.csv')
 
 app = dash.Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP])
 
